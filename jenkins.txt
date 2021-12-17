@@ -8,4 +8,4 @@ docker service create \
 --mount type=bind,src=/root/.ssh,dst=/var/jenkins_home/.ssh \
 --host "registry.pps.local:10.100.199.200" \
 --replicas 1 \
-jenkins/jenkins
+registry.pps.local:5000/myjenkins:1
